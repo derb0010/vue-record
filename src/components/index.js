@@ -1,12 +1,12 @@
 import VueRecordAudio from './VueRecordAudio'
 import VueRecordVideo from './VueRecordVideo'
 
-export default {
+export {
   VueRecordAudio,
   VueRecordVideo
 }
 
-// export default function install(Vue) {
-//   Vue.component('VueRecordAudio', VueRecordAudio)
-//   Vue.component('VueRecordVideo', VueRecordVideo)
-// }
+export default function install(Vue) {
+  Vue.component('VueRecordAudio')
+  Vue.component('VueRecordVideo')
+}
