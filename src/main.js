@@ -13,5 +13,4 @@ Vue.use(VueRecord)
 // }).$mount('#app')
 
 const app = createApp(App)
-app.component('VueRecord')
 app.mount('#app')
